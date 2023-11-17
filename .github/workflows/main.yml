@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing git hub actions'
-        run: pwd
-
       -name: 'Printing folder contents before'
         run: ls
 
