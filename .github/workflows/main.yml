@@ -12,3 +12,11 @@ jobs:
     steps:
       - name: 'Testing git hub actions'
         run: pwd
+
+      -name: 'Printing folder contents before'
+        run: ls
+
+      - uses: actions/checkout@v3
+
+      -name: 'Printing folder contents after'
+        run: ls
